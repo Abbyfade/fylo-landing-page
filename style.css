@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 40px;
+}
+nav{
+    margin-bottom: 100px;
+}
+nav img{
+    width: 120px;
+}
+nav ul{
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Raleway';
+    color: hsl(243, 87%, 12%);
+}
+nav ul li:first-child, nav ul li:nth-child(2){
+    margin-right: 20px;
+}
+.header{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom:80px;
+}
+.header-content{
+    width: 50%;  
+}
+.header-content h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+    font-family: 'Raleway';
+    color: hsl(243, 87%, 12%);
+}
+.header-content p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: 'Raleway';
+    color: hsl(243, 87%, 12%);
+}
+.email-input, .submit{
+    height: 40px;
+    font-family: 'Raleway';
+}
+.header-content .email-input{
+    width: 60%;
+    margin-right: 10px;
+    padding: 0 15px;
+    border-radius: 5px;
+}
+.header-content .submit{
+    width: 30%;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(224, 93%, 58%);
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+.header img{
+    width: 40%;
+}
+section{
+    padding: 80px 40px 100px 40px;
+    background: url(./images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+.section{
+    width: 50%;
+}
+section img:first-child{
+    width: 40%;
+}
+.section h1{
+    font-size: 38px;
+    margin-bottom: 20px;
+    font-family: 'Raleway';
+    color: hsl(243, 87%, 12%);
+}
+.section p {
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-family: 'Raleway';
+    color: hsl(243, 87%, 12%);
+}
+.section span{
+    border-bottom: 1px solid hsl(170, 45%, 43%);
+    display: flex;
+    width: fit-content;
+    align-items: center;
+}
+.section span a{
+    text-decoration: none;
+    color: hsl(170, 45%, 43%);
+    font-family: 'Raleway';
+}
+.section span img{
+   width: 15px;
+   margin-left: 5px;
+}
+.review{
+    margin-top: 50px;
+    width: 50%;
+    padding: 20px 20px 0 20px;
+    box-shadow: 0px 0px 10px hsl(0, 0%, 75%);
+}
+.review .quotes{
+    display: block;
+    width: 15px;
+}
+.review .comment{
+    font-family: 'Raleway';
+    font-size: 12px;
+    margin: 20px 0;
+    color: hsl(243, 87%, 12%);
+}
+.review .customer img{
+    width: 30px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.review .customer p{
+    display: inline-block;
+    margin-left: 5px;
+    font-family: 'Raleway';
+    font-size: 12px;
+    font-weight: bold;
+    color: hsl(243, 87%, 12%);
+}
+.review .customer p span{
+    font-weight: normal;
+    border: none;
+    font-size: 10px;
+}
+#sign-up{
+    font-family: 'Raleway';
+    background-color: hsl(238, 22%, 44%);
+    border: 1px solid black;
+    padding: 100px 40px 100px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sign-up{
+    width: 50%;
+}
+.text{
+    margin-right: 100px;
+}
+.text h1{
+font-size: 30px;
+}
+.text p{
+    font-size: 20px;
+}
+.register .email-input{
+    width: 70%;
+    display: block;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 0 15px;
+}
+.register .submit{
+    width: 30%;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(224, 93%, 58%);
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+.text{
+    color: hsl(240, 75%, 98%)
+}
+.text h1{
+    margin-bottom: 20px;
+}
+#footer{
+    padding: 100px 40px 80px 40px;
+    background-color: hsl(243, 87%, 12%);
+    font-family: 'Raleway';
+}
+#footer .logo-footer{
+    width: 120px;
+    margin-bottom: 20px;
+}
+#footer #footer-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer ul li{
+    list-style: none;
+    margin-bottom: 15px;
+}
+#footer a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    
+}
+#footer-nav ul:nth-child(4) li{
+    display: inline-block;
+}
+#footer-nav img{
+    margin-right: 10px;
+}
+#footer-nav i{
+    margin-right: 10px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    padding: 6px 8px;
+}
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
+@media(max-width:500px){
+    header{
+        padding: 40px 30px 0 30px;
+    }
+    .header{
+        display: block;
+        width: 100%;
+    }
+    .header-content, .header img{
+        width: 100%;
+    }
+    .header-content{
+        text-align: center;
+    }
+    .header-content h1{
+        font-size: 30px;
+    }
+    .header-content p{
+        font-size: 15px;
+    }
+    .header-content .email-input, .header-content .submit{
+        display: block;
+        width: 100%;
+        height: 55px;
+    }
+    .header-content .email-input{
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .header-content .submit{
+        font-size: 15px;
+    }
+    section{
+        display: block;
+    }
+    .section, section img:first-child{
+        width: 100%;
+    }
+    section img:first-child{
+        margin-bottom: 80px;
+    }
+    .section h1{
+        text-align: center;
+        font-size: 23px;
+    }
+    .section p:nth-child(2), .section p:nth-child(3){
+        font-size: 18px;
+    }
+    .section span:nth-child(4) {
+        margin: 50px auto;
+    }
+    .review{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .review p{
+        font-family: 'Raleway';
+    }
+    .review .quotes{
+        margin-bottom: 20px;
+    }
+    .review .customer img{
+        margin: 0;
+    }
+    #sign-up {
+        display: block;
+    }
+    .sign-up{
+        width: 100%;
+        text-align: center;
+    }
+    .register .email-input{
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        border: none;
+    }
+    .register .submit{
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+    #footer{
+        padding-bottom: 40px;
+    }
+    #footer .logo-footer{
+        width: 160px;
+    }
+    #footer #footer-nav{
+        display: block;
+        margin-top: 20px;
+    }
+    #footer-nav ul{
+        margin-bottom: 60px;
+    }
+    #footer-nav ul:nth-child(4){
+        text-align: center;
+    }
+}
